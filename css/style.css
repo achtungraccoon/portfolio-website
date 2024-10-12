@@ -100,6 +100,7 @@ a:visited {
 }
 
 a:active {
+  color: #2c9c91;
 
 }
 
@@ -113,12 +114,15 @@ Button
 */
 
 .button {
+  vertical-align: middle;
   display: inline-block;
   background-color: #2c9c91;
   color: #fafafa;
   font-weight: 600;
-  padding: 12px;
   border-radius: 24px;
+  padding: 12px;
+  text-align: center;
+  
 }
 
 .button:hover {
@@ -126,8 +130,6 @@ Button
   font-weight: 600;
   text-decoration: none;
   opacity: 80%;
-  padding: 12px;
-  border-radius: 24px;
 }
 
 .button:visited {
