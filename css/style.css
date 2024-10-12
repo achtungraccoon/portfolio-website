@@ -7,7 +7,6 @@ Tertiary Color (Soft Grey): #cdcdcd
 
 .figtree {
   font-family: "Figtree", sans-serif;
-  font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
@@ -101,7 +100,6 @@ a:visited {
 
 a:active {
   color: #2c9c91;
-
 }
 
 a:focus {
@@ -122,7 +120,6 @@ Button
   border-radius: 24px;
   padding: 12px;
   text-align: center;
-  
 }
 
 .button:hover {
@@ -146,4 +143,8 @@ Button
 .button:focus {
   border: #1e1e1e solid;
   opacity: 80%;
+}
+
+#activelink {
+  color: #2c9c91;
 }
