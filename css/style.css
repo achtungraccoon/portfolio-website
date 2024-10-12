@@ -5,6 +5,11 @@ Secondary Color (Turquoise): #2c9c91
 Tertiary Color (Soft Grey): #cdcdcd
 */
 
+
+/*
+Font
+*/
+
 .figtree {
   font-family: "Figtree", sans-serif;
   font-weight: weight;
@@ -19,10 +24,6 @@ body {
   line-height: 1.6;
   color: #1e1e1e;
 }
-
-/*
-Font
-*/
 
 h1 {
   font-size: 2.986rem;
