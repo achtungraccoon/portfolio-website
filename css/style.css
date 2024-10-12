@@ -1,8 +1,8 @@
 /*
 Colors used:
-Primary Color (Soft Black): #1E1E1E
-Secondary Color (Turquoise): #2C9C91
-Tertiary Color (Soft Grey): #CDCDCD
+Primary Color (Soft Black): #1e1e1e
+Secondary Color (Turquoise): #2c9c91
+Tertiary Color (Soft Grey): #cdcdcd
 */
 
 .figtree {
@@ -20,6 +20,10 @@ body {
   line-height: 1.6;
   color: #1e1e1e;
 }
+
+/*
+Font
+*/
 
 h1 {
   font-size: 2.986rem;
@@ -65,6 +69,79 @@ p {
 
 small {
   font-size: 0.833rem;
-  font-weight: 400;
+  font-weight: 700;
   line-height: 1.6em;
+}
+
+/*
+Images
+*/
+
+img {
+  width: 100%;
+}
+
+/*
+Links
+*/
+
+a {
+  color: #1e1e1e;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2c9c91;
+}
+
+a:visited {
+  color: #bdbdbd;
+}
+
+a:active {
+
+}
+
+a:focus {
+  border: 2px solid #2c9c91;
+  color: #2c9c91;
+}
+
+/*
+Button
+*/
+
+.button {
+  display: inline-block;
+  background-color: #2c9c91;
+  color: #fafafa;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 24px;
+}
+
+.button:hover {
+  color: #fafafa;
+  font-weight: 600;
+  text-decoration: none;
+  opacity: 80%;
+  padding: 12px;
+  border-radius: 24px;
+}
+
+.button:visited {
+  color: #fafafa;
+}
+
+.button:active {
+  color: #fafafa;
+  font-weight: 600;
+  text-decoration: none;
+  opacity: 80%;
+}
+
+.button:focus {
+  border: #1e1e1e solid;
+  opacity: 80%;
 }
