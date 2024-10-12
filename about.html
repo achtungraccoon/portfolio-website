@@ -21,7 +21,7 @@
             <nav>
                 <ul>
                     <li><a href="work.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html" id="activelink">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -29,20 +29,20 @@
     </header>
 
     <main>
-        <div><!--Whole Sction Block, Orange-->
-            <div><!--Container/Wrapper, Yellow-->
+        <div id="about">
+            <div><!--Container/Wrapper-->
                 <h1>About</h1>
             </div>
         </div>
-        <div><!--Whole Section Block, Orange-->
-            <div><!--Container/Wrapper, Yellow-->
+        <div><!--Whole Section Block-->
+            <div><!--Container/Wrapper-->
                 <picture>
                     <source srcset="./img/about/portrait-1x.jpg" media="(max-width:767px)" alt="Me & Raccoons">
                     <img src="./img/about/portrait-2x.jpg" alt="Me & Raccoons">
                 </picture>
             </div>
-            <div><!--Row for Columns, Green-->
-                <div><!--Column 1, Teal, My Story-->
+            <div><!--Row for Columns-->
+                <div id="bio"><!--Column 1-->
                     <h2>Hi again! My Name is Katharina Schuldheisz,</h2>
                     <p>
                         I’m a visual designer based in Germany, where I live with my fiancé. I hold a BFA in Graphic
@@ -65,10 +65,10 @@
                     </ul>
                     <a href="files/temp-resume.pdf" class="button" target="_blank">View My CV</a>
                 </div>
-                <div><!--Columns, Teal-->
+                <div id="skillsandtools"><!--Columns-->
                     <h2>Skills &amp; Tools</h2>
-                    <div><!--Row for Columns, Green-->
-                        <div><!--Column, Teal-->
+                    <div><!--Row for Columns-->
+                        <div id="skills"><!--Column-->
                             <h3>Relevant Skills</h3>
                             <ul>
                                 <li>User Interface Design</li>
@@ -81,7 +81,7 @@
                                 <li>Web Design</li>
                             </ul>
                         </div>
-                        <div><!--Column, Teal-->
+                        <div id="tools"><!--Column-->
                             <h3>Tools I Use</h3>
                             <ul>
                                 <li>Figma</li>
@@ -100,17 +100,17 @@
 
     </main>
 
-    <footer id="contact"><!--Whole Section Block, Orange-->
-        <div><!--Container / Wrapper, Yellow-->
+    <footer id="contact"><!--Whole Section Block-->
+        <div><!--Container-->
             <h2>Let's Work Together</h2>
             <p>Would you like to work together to bring your ideas to life? Please contact me. Call: <a
                     href="tel:+490000000">+49 0000000</a></p>
             <p>Prefer to Communicate by Email?</p>
-            <div><!--Contact, Lavender-->
+            <div><!--Contact-->
                 <a href="mailto:katharina.designs@gmail.com" class="button">Email Me</a>
             </div>
 
-            <div><!--Social Media Links, Lavender-->
+            <div id="socials"><!--Social Media Links-->
                 <ul>
                     <li><a href="https://www.linkedin.com/in/katharinadesigns/" target="_blank"><img
                                 src="./img/footer/linkedin.svg" alt="Linkedin"></a></li>
@@ -120,7 +120,7 @@
                                 alt="Github"></a></li>
                 </ul>
             </div>
-            <small>&copy; Copyright Katharina Schuldheisz 2024</small>
+            <small id="copyright">&copy; Copyright Katharina Schuldheisz 2024</small>
         </div>
     </footer>
 

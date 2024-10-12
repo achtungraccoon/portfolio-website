@@ -31,30 +31,25 @@
     </header>
 
     <main>
-        <div>
+        <div id="intro">
             <div>
                 <h1>Hi, My name is Katharina</h1>
                 <span>I'm a EU-based visual designer with a background in graphic design. I’m passionate about creating
                     intuitive, clean, and visually engaging digital experiences. </span>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean rhoncus posuere diam id suscipit.
-                    Praesent sit amet est nec elit blandit malesuada. Phasellus fermentum purus non erat euismod, sit
-                    amet porta velit tincidunt. Nulla facilisi. Sed suscipit nisi id risus tempus malesuada. Suspendisse
-                    et consectetur tellus, at pretium nunc. Vestibulum sed ullamcorper ligula. Fusce velit diam,
-                    pellentesque efficitur tellus eget, placerat eleifend lacus.</p>
             </div>
         </div>
 
-        <div><!--Whole Section Block, Orange-->
-            <div><!--Container/Wrapper, Yellow-->
+        <div id="work"><!--Whole Section Block-->
+            <div><!--Container/Wrapper-->
                 <h2>My Work</h2>
-                <div><!--Row for Columns, Green-->
-                    <div><!--2x Columns, Teal-->
+                <div id="burrow"><!--Row for Columns-->
+                    <div><!--2x Columns-->
                         <picture>
                             <source srcset="./img/home/burrow-tn-1x.png" media="(max-width:767px)" alt="Burrow Project">
                             <img src="./img/home/burrow-tn-2x.png" alt="Burrow Project">
                         </picture>
                     </div>
-                    <div><!--2xColumns, Teal-->
+                    <div><!--2xColumns-->
                         <h3>Burrow</h3>
                         <p>Burrow is a user-friendly app for managing personal finances, making it easy to track income,
                             expenses, and savings. With features for setting and monitoring personalized savings goals,
@@ -65,15 +60,15 @@
                     </div>
                 </div>
 
-                <div><!--Row for Columns, Green-->
-                    <div><!--2x Columns, Teal-->
+                <div id="merchbooth"><!--Row for Columns-->
+                    <div><!--2x Columns-->
                         <picture>
                             <source srcset="./img/home/merchbooth-tn-1x.png" media="(max-width:767px)"
                                 alt="Merchbooth Project">
                             <img src="./img/home/merchbooth-tn-2x.png" alt="Merchbooth Project">
                         </picture>
                     </div>
-                    <div><!--2x Columns Teal-->
+                    <div><!--2x Columns-->
                         <h3>Merchbooth</h3>
                         <p>Merchbooth simplifies concert merchandise management with real-time inventory tracking and
                             up-to-date sales stats. It enhances the fan experience and streamlines the sales process,
@@ -85,17 +80,17 @@
         </div>
     </main>
 
-    <footer id="contact"><!--Whole Section Block, Orange-->
-        <div><!--Container / Wrapper, Yellow-->
+    <footer id="contact"><!--Whole Section Block-->
+        <div><!--Container-->
             <h2>Let's Work Together</h2>
             <p>Would you like to work together to bring your ideas to life? Please contact me. Call: <a
                     href="tel:+490000000">+49 0000000</a></p>
             <p>Prefer to Communicate by Email?</p>
-            <div><!--Contact, Lavender-->
-                <a href="mailto:katharina.designs@gmail.com">Email Me</a>
+            <div><!--Contact-->
+                <a href="mailto:katharina.designs@gmail.com" class="button">Email Me</a>
             </div>
 
-            <div><!--Social Media Links, Lavender-->
+            <div id="socials"><!--Social Media Links-->
                 <ul>
                     <li><a href="https://www.linkedin.com/in/katharinadesigns/" target="_blank"><img
                                 src="./img/footer/linkedin.svg" alt="Linkedin"></a></li>
@@ -105,7 +100,7 @@
                                 alt="Github"></a></li>
                 </ul>
             </div>
-            <small>&copy; Copyright Katharina Schuldheisz 2024</small>
+            <small id="copyright">&copy; Copyright Katharina Schuldheisz 2024</small>
         </div>
     </footer>
 
