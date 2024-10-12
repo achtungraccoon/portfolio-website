@@ -4,3 +4,11 @@ Primary Color (Soft Black): #1E1E1E
 Secondary Color (Turquoise): #2C9C91
 Tertiary Color (Soft Grey): #CDCDCD
 */
+
+
+.figtree-uniquifier {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
