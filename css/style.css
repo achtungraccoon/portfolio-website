@@ -16,6 +16,10 @@ Text
   font-style: normal;
 }
 
+nav {
+  font-size: 2.074rem;
+}
+
 body {
   background-color: #fff;
   font-family: "figtree", sans-serif;
