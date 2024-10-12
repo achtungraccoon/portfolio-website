@@ -81,6 +81,18 @@ img {
   width: 100%;
 }
 
+#peace {
+  width: 50px;
+}
+
+.biowithimage {
+  display: flex;
+  align-items: center;
+}
+.biowithimage img {
+  margin-left: 12px; /* adjust as needed */
+}
+
 /*
 Links
 */
