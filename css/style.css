@@ -5,19 +5,14 @@ Secondary Color (Turquoise): #2c9c91
 Tertiary Color (Soft Grey): #cdcdcd
 */
 
-
 /*
-Text
+Basic Rules: html, body, a, h1, h2, img
 */
 
 .figtree {
   font-family: "Figtree", sans-serif;
   font-weight: weight;
   font-style: normal;
-}
-
-nav {
-  font-size: 2.074rem;
 }
 
 body {
@@ -28,6 +23,9 @@ body {
   line-height: 1.6;
   color: #1e1e1e;
 }
+
+/* Headings
+*/
 
 h1 {
   font-size: 2.986rem;
@@ -65,6 +63,9 @@ h6 {
   line-height: 1.6em;
 }
 
+/* Text
+*/
+
 p {
   font-size: 1rem;
   font-weight: 400;
@@ -77,28 +78,18 @@ small {
   line-height: 1.6em;
 }
 
-/*
-Images
-*/
+/* Images
+*/ 
 
 img {
   width: 100%;
 }
 
-#peace {
-  width: 50px;
-}
-
-.biowithimage {
-  display: flex;
-  align-items: center;
-}
-.biowithimage img {
-  margin-left: 12px; /* adjust as needed */
-}
-
 /*
-Links
+Specific Rules: Links, Buttons, Forms
+*/
+
+/* Links
 */
 
 a {
@@ -124,8 +115,7 @@ a:focus {
   color: #2c9c91;
 }
 
-/*
-Buttons
+/* Buttons
 */
 
 .button {
@@ -165,3 +155,11 @@ Buttons
 #activelink {
   color: #2c9c91;
 }
+
+/*
+Layout: Columns & Rows
+*/
+
+/*
+Sections & Elements
+*/
