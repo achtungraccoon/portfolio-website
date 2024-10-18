@@ -24,7 +24,7 @@
             <nav>
                 <ul>
                     <li><a href="work.html">Work</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html" id="current">About</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
@@ -33,47 +33,54 @@
 
     <main>
         <div id="about">
-            <div><!--Container/Wrapper-->
+            <div class="container"><!--Container/Wrapper-->
                 <h1>About</h1>
             </div>
         </div>
         <div><!--Whole Section Block-->
-            <div><!--Container/Wrapper-->
+            <div class="container"><!--Container/Wrapper-->
                 <picture>
                     <source srcset="./img/about/portrait-1x.jpg" media="(max-width:767px)" alt="Me & Raccoons">
                     <img src="./img/about/portrait-2x.jpg" alt="Me & Raccoons">
                 </picture>
             </div>
-            <div><!--Row for Columns-->
-                <div id="bio">
-                    <div class="biowithimage"><!--Column 1-->
+            <div id="bio"><!--Row for Columns-->
+                <div class="container">
+                    <div><!--Column 1-->
                         <h2>Hi again! My Name is Katharina Schuldheisz</h2>
                         <img src="img/all/peace.svg" id="peace">
+
+                        <p>
+                            I’m a visual designer based in Germany, where I live with my fiancé. I hold a BFA in Graphic
+                            Design and a BA in Live &amp; Performing Arts Management. My journey from the music industry
+                            to
+                            design has been driven by a lifelong passion for design, creativity, and a commitment to
+                            crafting clean, impactful, and user-centered designs. I believe that great design is about
+                            solving problems and making complex ideas simple and engaging. My approach combines thorough
+                            research with a focus on clarity and detail, ensuring every project is clean, functional,
+                            and
+                            visually appealing. When I’m not designing, you’ll probably find me at a concert, traveling,
+                            attempting to learn Swedish, or dreaming up my next spooky adventure. I’m open to remote
+                            opportunities within the EU and would love to connect and explore how we can bring your
+                            ideas to
+                            life!</p>
+
+
+                        <h3 class="container">Fun Facts:</h3>
+                        <ul>
+                            <li><strong>Halloween aficionado:</strong> with a love for all things spooky.</li>
+                            <li><strong>Almost always listening to:</strong> Ghost or U2, but I’m also a bit of a dad
+                                rock
+                                connoisseur. 
+                            </li>
+                            <li><strong>Daydreaming about:</strong> raccoons (they’re my favorite).</li>
+                        </ul>
+                        <a href="files/temp-resume.pdf" class="button" target="_blank">View My CV</a>
                     </div>
                 </div>
-                <p>
-                    I’m a visual designer based in Germany, where I live with my fiancé. I hold a BFA in Graphic
-                    Design and a BA in Live &amp; Performing Arts Management. My journey from the music industry to
-                    design has been driven by a lifelong passion for design, creativity, and a commitment to
-                    crafting clean, impactful, and user-centered designs. I believe that great design is about
-                    solving problems and making complex ideas simple and engaging. My approach combines thorough
-                    research with a focus on clarity and detail, ensuring every project is clean, functional, and
-                    visually appealing. When I’m not designing, you’ll probably find me at a concert, traveling,
-                    attempting to learn Swedish, or dreaming up my next spooky adventure. I’m open to remote
-                    opportunities within the EU and would love to connect and explore how we can bring your ideas to
-                    life!</p>
-                <h3>Fun Facts:</h3>
-                <ul>
-                    <li><strong>Halloween aficionado:</strong> with a love for all things spooky.</li>
-                    <li><strong>Almost always listening to:</strong> Ghost or U2, but I’m also a bit of a dad rock
-                        connoisseur. 
-                    </li>
-                    <li><strong>Daydreaming about:</strong> raccoons (they’re my favorite).</li>
-                </ul>
-                <a href="files/temp-resume.pdf" class="button" target="_blank">View My CV</a>
             </div>
         </div>
-        <div id="skillsandtools"><!--Columns-->
+        <div id="skillsandtools" class="container"><!--Columns-->
             <h2>Skills &amp; Tools</h2>
             <div><!--Row for Columns-->
                 <div id="skills"><!--Column-->
@@ -109,7 +116,7 @@
     </main>
 
     <footer id="contact"><!--Whole Section Block-->
-        <div><!--Container-->
+        <div class="container"><!--Container-->
             <h2>Let's Work Together</h2>
             <p>Would you like to work together to bring your ideas to life? Please contact me. Call: <a
                     href="tel:+490000000">+49 0000000</a></p>
