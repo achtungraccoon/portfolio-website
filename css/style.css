@@ -120,6 +120,11 @@ img {
   max-width: 250px;
 }
 
+#socials > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
 /*
 Specific Rules: Links, Buttons, Forms
 */
@@ -141,12 +146,16 @@ a:visited {
   color: #bdbdbd;
 }
 
+a:focus {
+  border: 2px solid #2c9c91;
+  color: #2c9c91;
+}
+
 a:active {
   color: #2c9c91;
 }
 
-a:focus {
-  border: 2px solid #2c9c91;
+#current {
   color: #2c9c91;
 }
 
@@ -237,15 +246,11 @@ nav > ul > li > a:hover {
   color: #2c9c91;
 }
 
-nav > ul > li > a:visited {
-  color: #bdbdbd;
-}
-
-nav > ul > li > a:active {
+nav > ul > li > a:focus {
+  border: 2px solid #2c9c91;
   color: #2c9c91;
 }
 
-nav > ul > li > a:focus {
-  border: 2px solid #2c9c91;
+nav > ul > li > a:active {
   color: #2c9c91;
 }
