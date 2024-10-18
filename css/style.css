@@ -213,7 +213,7 @@ Sections & Elements
 */
 
 #hero {
-  background-color: #fafafa;
+  background-color: #fff;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
@@ -221,9 +221,22 @@ Sections & Elements
 
 #hero h1 {
   text-align: center;
+  color: #2c9c91;
 }
 
 #hero p {
+  text-align: center;
+}
+
+#about h1 {
+  text-align: center;
+}
+
+#work h2 {
+  text-align: center;
+}
+
+#contact .container {
   text-align: center;
 }
 
