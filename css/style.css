@@ -15,6 +15,18 @@ Basic Rules: html, body, a, h1, h2, img
   font-style: normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0;
+}
+
 body {
   background-color: #fff;
   font-family: "figtree", sans-serif;
@@ -22,6 +34,25 @@ body {
   font-weight: 400;
   line-height: 1.6;
   color: #1e1e1e;
+}
+
+header {
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: #1e1e1e 1px solid;
+  width: [object Object]px;
+  height: [object Object]px;
+  border: solid #bdbdbd 0;
+  box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+nav {
+  display: inline-block;
+  width: 100%;
 }
 
 /* Headings
@@ -79,10 +110,14 @@ small {
 }
 
 /* Images
-*/ 
+*/
 
 img {
   width: 100%;
+}
+
+.logo {
+  max-width: 250px;
 }
 
 /*
@@ -160,6 +195,57 @@ a:focus {
 Layout: Columns & Rows
 */
 
+.row {
+  margin: 25px 0;
+}
+
 /*
 Sections & Elements
 */
+
+#hero {
+  background-color: #fafafa;
+  padding: 20px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+#hero h1 {
+  text-align: center;
+}
+
+#hero p {
+  text-align: center;
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+nav > ul > li > a:hover {
+  color: #2c9c91;
+}
+
+nav > ul > li > a:visited {
+  color: #bdbdbd;
+}
+
+nav > ul > li > a:active {
+  color: #2c9c91;
+}
+
+nav > ul > li > a:focus {
+  border: 2px solid #2c9c91;
+  color: #2c9c91;
+}
