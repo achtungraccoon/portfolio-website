@@ -236,6 +236,18 @@ Sections & Elements
   text-align: center;
 }
 
+#bio {
+  text-align: left;
+}
+
+#work {
+  text-align: rleft;
+}
+
+#skillandtools {
+  text-align: left;
+}
+
 #contact .container {
   text-align: center;
 }
