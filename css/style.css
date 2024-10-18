@@ -212,6 +212,8 @@ Layout: Columns & Rows
 Sections & Elements
 */
 
+/* index.html
+*/
 #hero {
   background-color: #fff;
   padding: 20px 0;
@@ -236,11 +238,14 @@ Sections & Elements
   text-align: center;
 }
 
-#bio {
+#work {
   text-align: left;
 }
 
-#work {
+/*
+about.html
+*/
+#bio {
   text-align: left;
 }
 
@@ -248,6 +253,16 @@ Sections & Elements
   text-align: left;
 }
 
+/*
+burrow.html
+*/
+#burrowtitle h1 {
+  text-align: center;
+}
+
+/*
+footer
+*/
 #contact .container {
   text-align: center;
 }
